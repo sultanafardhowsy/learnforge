@@ -137,6 +137,8 @@ Lecture (id, title, description, videoUrl, order, courseId → Course.id ON DELE
 `npm run db:seed` is safe to re-run: it upserts the admin, and only inserts sample courses when the database has none (so redeploys never wipe real data). Run `SEED_RESET=true npm run db:seed` to reset to the sample set.
 All student-facing data comes from the database; nothing is hard-coded in the frontend.
 
+Deployed Database: The production PostgreSQL database is already initialized with the required migrations and sample seed data. Evaluators can access the preloaded courses through the live application without setting up a separate database.
+
 ---
 
 ## API reference
