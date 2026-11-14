@@ -9,7 +9,7 @@ Admins manage courses and video lectures; students browse courses and watch lect
 | | |
 |---|---|
 | **Live demo** | https://learnforge-eight-bay.vercel.app/ |
-| **API** | _add your backend URL here_ |
+| **API** |https://learnforge-backend-z8iw.onrender.com
 | **Admin login** | `admin@lms.com` / `admin123` |
 
 ---
